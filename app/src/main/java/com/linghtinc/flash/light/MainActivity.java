@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
     private AtomicBoolean isFlashOn = new AtomicBoolean(false);
     private Camera cam;
-    Camera.Parameters p ;
-    SurfaceTexture previewTexture;
+    private Camera.Parameters p ;
+    private SurfaceTexture previewTexture;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
